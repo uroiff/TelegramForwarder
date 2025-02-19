@@ -1,0 +1,28 @@
+{
+    "session_dir": "sessions",
+    "api_id": "",
+    "api_hash": "",
+    "logging": {
+        "level": "INFO",
+        "console_output": true,
+        "file_output": true,
+        "log_file_path": "telegram_forwarder.log"
+    },
+    "sessions": [""],
+    "mappings": [
+        {
+            "enabled": true,
+            "source": "",
+            "destination": "",
+            "keyword_filtering_enabled": true,
+            "keywords_include": [],
+            "keywords_exclude": [],
+            "number_threshold_enabled": true,
+            "number_threshold_min": 100,
+            "number_threshold_max": 1000000,
+            "number_regex_patterns": [
+                "spend\\s+(\\d+(?:\\.\\d+)?)"
+            ]
+        }
+    ]
+}
