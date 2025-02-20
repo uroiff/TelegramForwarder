@@ -39,7 +39,7 @@ Before you start, make sure you have the following installed:
 
 1. Clone the repository to your server.
 2. Install the necessary dependencies.
-3. Create your sessions or use your existing sessions.
+3. Create your sessions or use your existing sessions (put in sessions folder).
 4. Edit the config.json file according to your needs.
 	* For multiple sessions, please add the session name in *sessions*.
 	* To handle multiple sources/destination, create more items in *mappings* array.
